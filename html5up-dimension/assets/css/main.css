@@ -300,6 +300,7 @@ input, select, textarea {
 		text-align: right;
 	}
 
+
 /* Form */
 
 	form {
@@ -676,12 +677,14 @@ input, select, textarea {
 
 		.image.main {
 			display: block;
-			margin: 2.5rem 0;
-			width: 100%;
+			margin: 2.5rem 12.0rem;
+			width: 25%;
+            border-radius: 50%;
 		}
 
 			.image.main img {
 				width: 100%;
+                border-radius: 50%;
 			}
 
 		@media screen and (max-width: 736px) {
@@ -1599,7 +1602,10 @@ input, select, textarea {
 			}
 
 		}
-
+#intro{
+    display: flex;
+    flex-direction: column;
+}
 /* Footer */
 
 	#footer {
