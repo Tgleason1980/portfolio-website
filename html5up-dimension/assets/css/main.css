@@ -299,8 +299,16 @@ input, select, textarea {
 	.align-right {
 		text-align: right;
 	}
+h1{
+    color: blue;
+}
 
-
+h2{
+    color: blue;
+}
+.link{
+    color: aqua;
+}
 /* Form */
 
 	form {
